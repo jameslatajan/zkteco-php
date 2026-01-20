@@ -7,6 +7,9 @@
 
 A comprehensive PHP library for connecting to and extracting data from ZKTeco fingerprint attendance devices. This library provides a complete implementation of the ZKTeco protocol, enabling you to retrieve user data, attendance records, and device information.
 
+## Special Mention
+- This zk version is compatible with xface600 device
+
 ## ✨ Features
 
 - 🔌 **Full Protocol Support** - Complete ZKTeco TCP/UDP communication protocol
