@@ -39,18 +39,9 @@ Add your fork as a repository and require the desired branch:
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/jameslatajan/zkteco.git"
+        "url": "https://github.com/jameslatajan/zkteco-php.git"
     }
 ],
-"require": {
-    "rats/zkteco": "dev-master",
-    "codeigniter4/framework": "4.4.8"
-},
-"config": {
-    "platform": {
-        "php": "8.1.0"
-    }
-}
 ```
 
 ### Manual Installation
