@@ -44,6 +44,12 @@ Add your fork as a repository and require the desired branch:
 ],
 ```
 
+### Update only this package and its dependencies (safe update)
+
+```bash
+composer update mshadydev/zkteco-php --with-dependencies
+```
+
 ### Manual Installation
 
 1. Download the library files
