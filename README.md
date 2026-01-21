@@ -28,7 +28,7 @@ A comprehensive PHP library for connecting to and extracting data from ZKTeco fi
 ### Via Composer (Recommended)
 
 ```bash
-composer require mshadydev/zkteco-php
+composer require mshadydev/zkteco-php:dev-master
 ```
 
 ### Manual Installation
