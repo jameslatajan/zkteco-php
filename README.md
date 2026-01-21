@@ -31,6 +31,28 @@ A comprehensive PHP library for connecting to and extracting data from ZKTeco fi
 composer require mshadydev/zkteco-php:dev-master
 ```
 
+### 1. Edit `composer.json`
+
+Add your fork as a repository and require the desired branch:
+
+```json
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/jameslatajan/zkteco.git"
+    }
+],
+"require": {
+    "rats/zkteco": "dev-master",
+    "codeigniter4/framework": "4.4.8"
+},
+"config": {
+    "platform": {
+        "php": "8.1.0"
+    }
+}
+```
+
 ### Manual Installation
 
 1. Download the library files
